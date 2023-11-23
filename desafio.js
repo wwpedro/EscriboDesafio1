@@ -33,7 +33,7 @@ function realizarSomatorioNumerosDivisiveis3e5() {
                         Swal.fire({
                             icon: 'info',
                             title: 'Atenção',
-                            text: 'O somatório dos números divisíveis por 3 e 5 até igual a 0, pois você digitou números abaixo de 3.',
+                            text: 'O somatório dos números divisíveis por 3 e 5 até igual a 0, pois você digitou um valor insuficiente.',
                             allowOutsideClick: false,
                         }).then(() => {
                             realizarSomatorioNumerosDivisiveis3e5();

@@ -20,7 +20,7 @@ function realizarSomatorioNumerosDivisiveis3e5(){
                     
             }
             if(somatorio==0){
-                alert("o somatorio dos numero divisiveis por 3 e 5 até igual a 0 pois voce digitou numeros abaixo de 3");
+                alert("o somatorio dos numero divisiveis por 3 e 5 até igual a 0 pois voce digitou um valor insuficiente");
                 realizarSomatorioNumerosDivisiveis3e5();
             }else{
                 alert("o somatorio dos numero divisiveis por 3 e 5 até o numero que voce digitou eh "+somatorio);
