@@ -1,0 +1,37 @@
+Lógica com JavaScript puro que fiz
+
+function realizarSomatorioNumerosDivisiveis3e5(){
+    
+    let numero = prompt("Um numero:");
+    let somatorio = 0;
+
+    if(isNaN(numero)){
+        alert("digite um valor numerico");
+        realizarSomatorioNumerosDivisiveis3e5(); 
+        
+    }else{
+        if(numero > 0){
+
+            
+            for (let i = 1; i < numero; i++) {
+                if (i%3 == 0 || i%5 == 0){
+                    somatorio=somatorio+i
+                }
+                    
+            }
+            if(somatorio==0){
+                alert("o somatorio dos numero divisiveis por 3 e 5 até igual a 0 pois voce digitou numeros abaixo de 3");
+                realizarSomatorioNumerosDivisiveis3e5();
+            }else{
+                alert("o somatorio dos numero divisiveis por 3 e 5 até o numero que voce digitou eh "+somatorio);
+                realizarSomatorioNumerosDivisiveis3e5();
+            }
+
+        }else{
+            alert("digite um numero positivo maior que 0");
+            realizarSomatorioNumerosDivisiveis3e5();
+        }
+    }
+}
+
+realizarSomatorioNumerosDivisiveis3e5();
