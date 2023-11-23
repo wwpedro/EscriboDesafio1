@@ -1,4 +1,4 @@
-Lógica com JavaScript
+Lógica com JavaScript Puro
 
 function realizarSomatorioNumerosDivisiveis3e5(){
     
